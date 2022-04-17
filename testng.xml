@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee">
+        <classes>
+            <class name="tests.GetTemptest">
+                <methods>
+                    <include name="getString"></include>
+                    <include name="click"></include>
+                    <include name="readinInstruction"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
