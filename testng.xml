@@ -8,6 +8,10 @@
                     <include name="getString"></include>
                     <include name="click"></include>
                     <include name="readinInstruction"></include>
+                    <include name="countingNumberofItems"></include>
+                    <include name="verifyCart"></include>
+                    <include name="paymentGateway"></include>
+                    <include name="CardDetails"></include>
                 </methods>
             </class>
         </classes>

@@ -13,7 +13,7 @@ import java.util.Properties;
 public class launching {
     public static WebDriver driver;
     @BeforeTest
-    public void setup() throws IOException, InterruptedException {
+    public void setup() throws IOException {
         Properties prop = new Properties();
         FileInputStream ip = new FileInputStream("src/test/resources/config.properties");
         prop.load(ip);
@@ -32,12 +32,12 @@ public class launching {
         }
         //driver.close();
     }
-    @AfterTest
-    public static void closeBrowser() throws InterruptedException {
-        System.out.println("You are in closing zone");
-        Thread.sleep(3000);
-        driver.close();
-    }
+//    @AfterTest
+//    public static void closeBrowser() throws InterruptedException {
+//        System.out.println("You are in closing zone");
+//        Thread.sleep(3000);
+//        driver.close();
+//    }
 
 
 }
