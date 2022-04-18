@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import tests.takeScreenShots;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -26,6 +27,7 @@ public class launching {
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
             driver.manage().window().maximize();
             driver.navigate().to(url);
+            takeScreenShots.screenshots(driver,"UrlNavigated");
         }
         else{
             System.out.println("No Value found in properties file for the Provided key");
@@ -34,6 +36,7 @@ public class launching {
     }
     @AfterTest
     public static void closeBrowser() throws InterruptedException {
+        takeScreenShots.screenshots(driver,"paymentSuccessfulll");
         System.out.println("You are in closing zone");
         Thread.sleep(3000);
         driver.close();

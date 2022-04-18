@@ -1,1 +1,45 @@
 2022-04-18 08:54:47.191 INFO [main] [tests.GetTemptest.getString(GetTemptest.java:35)] - Getting the temperature
+2022-04-18 10:04:37.633 INFO [TestNG-tests-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 10:04:37.690 INFO [TestNG-tests-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 10:04:43.204 INFO [TestNG-tests-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 10:05:09.906 INFO [TestNG-tests-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 10:05:14.156 INFO [TestNG-tests-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 10:05:26.265 INFO [TestNG-tests-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 10:05:46.948 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 10:05:46.990 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 10:05:56.288 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 10:55:52.472 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 10:55:52.507 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 10:55:58.833 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 10:55:58.901 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.countingNumberofItems(GetTemptest.java:72)] - To Count Number of Items
+2022-04-18 10:55:59.397 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.verifyCart(GetTemptest.java:201)] - To Verify cart
+2022-04-18 10:56:01.590 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.paymentGateway(GetTemptest.java:206)] - Clicking on payment Button
+2022-04-18 10:56:01.660 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.CardDetails(GetTemptest.java:213)] - Adding Card Details and Checking for success
+2022-04-18 10:57:20.061 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 10:57:20.098 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 10:57:25.179 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 10:57:25.247 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.countingNumberofItems(GetTemptest.java:72)] - To Count Number of Items
+2022-04-18 10:57:25.735 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.verifyCart(GetTemptest.java:201)] - To Verify cart
+2022-04-18 10:57:27.460 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.paymentGateway(GetTemptest.java:206)] - Clicking on payment Button
+2022-04-18 10:57:27.521 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.CardDetails(GetTemptest.java:213)] - Adding Card Details and Checking for success
+2022-04-18 10:58:33.477 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 10:58:33.516 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 10:58:39.287 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 10:58:39.376 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.countingNumberofItems(GetTemptest.java:72)] - To Count Number of Items
+2022-04-18 10:58:39.869 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.verifyCart(GetTemptest.java:201)] - To Verify cart
+2022-04-18 10:58:41.612 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.paymentGateway(GetTemptest.java:206)] - Clicking on payment Button
+2022-04-18 10:58:41.674 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.CardDetails(GetTemptest.java:213)] - Adding Card Details and Checking for success
+2022-04-18 11:06:15.474 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 11:06:15.507 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 11:06:21.684 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 11:06:21.792 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.countingNumberofItems(GetTemptest.java:72)] - To Count Number of Items
+2022-04-18 11:06:22.341 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.verifyCart(GetTemptest.java:201)] - To Verify cart
+2022-04-18 11:06:24.198 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.paymentGateway(GetTemptest.java:206)] - Clicking on payment Button
+2022-04-18 11:06:24.262 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.CardDetails(GetTemptest.java:213)] - Adding Card Details and Checking for success
+2022-04-18 11:14:33.582 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.getString(GetTemptest.java:34)] - Getting the temperature
+2022-04-18 11:14:33.613 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.click(GetTemptest.java:55)] - For Clicking
+2022-04-18 11:14:38.578 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.readinInstruction(GetTemptest.java:65)] - To read
+2022-04-18 11:14:38.671 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.countingNumberofItems(GetTemptest.java:72)] - To Count Number of Items
+2022-04-18 11:14:39.175 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.verifyCart(GetTemptest.java:201)] - To Verify cart
+2022-04-18 11:14:41.570 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.paymentGateway(GetTemptest.java:207)] - Clicking on payment Button
+2022-04-18 11:14:41.665 INFO [TestNG-test=C:/Users/adityakumar72/IdeaProjects/Selenium_Assignee-1] [tests.GetTemptest.CardDetails(GetTemptest.java:214)] - Adding Card Details and Checking for success

@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import pages.launching;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
@@ -70,6 +69,7 @@ public class GetTemptest extends launching {
     }
     @Test(priority = 4)
     public void countingNumberofItems() {
+        logger.info("To Count Number of Items");
         for(int i = 1; i<4;i++) {
             brandName.add(driver.findElement(By.xpath("/html/body/div[1]/div[2]/div["+i+"]/p[1]")).getText());
             price.add(driver.findElement(By.xpath("/html/body/div[1]/div[2]/div["+i+"]/p[2]")).getText());
@@ -198,16 +198,20 @@ public class GetTemptest extends launching {
     }
     @Test(priority = 5)
     public void verifyCart(){
+        logger.info("To Verify cart");
         driver.findElement(By.xpath("/html/body/nav/ul/button")).click();
+        takeScreenShots.screenshots(driver,"CartVerified");
     }
     @Test (priority = 6)
     public void paymentGateway(){
+        logger.info("Clicking on payment Button");
         driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/button")).click();
         driver.switchTo().frame(driver.findElement(By.xpath("/html/body/iframe")));
     }
 
     @Test(priority = 7)
-    public void CardDetails() throws IOException {
+    public void CardDetails() throws IOException, InterruptedException {
+        logger.info("Adding Card Details and Checking for success");
         Properties prop = new Properties();
         FileInputStream ip = new FileInputStream("src/test/resources/config.properties");
         prop.load(ip);
@@ -236,6 +240,8 @@ public class GetTemptest extends launching {
         driver.findElement(By.xpath("//*[@id=\"billing-zip\"]")).sendKeys(zipcode);
 
         driver.findElement(By.xpath("//*[@id=\"submitButton\"]")).click();
+        Thread.sleep(3000);
+
     }
 
 
