@@ -32,12 +32,12 @@ public class launching {
         }
         //driver.close();
     }
-//    @AfterTest
-//    public static void closeBrowser() throws InterruptedException {
-//        System.out.println("You are in closing zone");
-//        Thread.sleep(3000);
-//        driver.close();
-//    }
+    @AfterTest
+    public static void closeBrowser() throws InterruptedException {
+        System.out.println("You are in closing zone");
+        Thread.sleep(3000);
+        driver.close();
+    }
 
 
 }

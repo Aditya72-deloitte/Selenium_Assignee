@@ -1,4 +1,6 @@
 package tests;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import pages.launching;
@@ -25,14 +27,12 @@ public class GetTemptest extends launching {
     ArrayList<Integer> sunscreensspf50Cost = new ArrayList<Integer>();
     ArrayList<Integer> sunscreensspf30Cost = new ArrayList<Integer>();
 
+    public static Logger logger = LogManager.getLogger(GetTemptest.class);
 
     int num = 0;
-
-    public GetTemptest() throws FileNotFoundException {
-    }
-
     @Test(priority = 1)
     public void getString() {
+        logger.info("Getting the temperature");
         String temp = driver.findElement(By.xpath("//*[@id=\"temperature\"]")).getText();
         System.out.println(temp);
         int i = 0;
@@ -53,6 +53,7 @@ public class GetTemptest extends launching {
     }
     @Test(priority = 2)
     public void click(){
+        logger.info("For Clicking");
         if(num>18){
             driver.findElement(By.xpath("/html/body/div/div[3]/div[2]/a/button")).click();
         }
@@ -62,6 +63,7 @@ public class GetTemptest extends launching {
     }
     @Test(priority = 3)
     public void readinInstruction(){
+        logger.info("To read");
         driver.findElement(By.xpath("/html/body/div[1]/div[1]/span")).click();
         String instructions = driver.findElement(By.xpath("//*[@class=\"popover-body\"]")).getText();
         System.out.println(instructions);
